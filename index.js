@@ -54,7 +54,7 @@ async function run () {
     const frame = sample.getFrameAt(i)
     render_text_frame($screen, frame)
     i = (i + 1) % sample.frameCount
-  }, 1000 / 25)
+  }, 1000 / 30)
 }
 
 document.addEventListener('click', () => {
