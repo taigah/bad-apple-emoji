@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+p {
+  text-align: center;
+}
